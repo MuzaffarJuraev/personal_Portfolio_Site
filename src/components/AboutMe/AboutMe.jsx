@@ -7,6 +7,7 @@ import CameraFrontRoundedIcon from "@mui/icons-material/CameraFrontRounded";
 import AutoAwesomeMotionRoundedIcon from "@mui/icons-material/AutoAwesomeMotionRounded";
 import manImg from "../../assets/img/man.jpg";
 import manTwoImg from "../../assets/img/man2.jpg";
+import manThreeImg from "../../assets/img/man3.jpg";
 
 const AboutMe = () => {
   return (
@@ -76,6 +77,9 @@ const AboutMe = () => {
           </div>
           <div className="personImgTwoContainer">
             <img src={manTwoImg} alt=".." />
+          </div>
+          <div className="personImgThreeContaie">
+            <img src={manThreeImg} alt=".." />
           </div>
         </div>
       </div>
