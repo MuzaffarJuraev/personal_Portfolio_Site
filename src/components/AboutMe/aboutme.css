@@ -21,3 +21,58 @@
   color: #e4e4e4;
   margin-top: 40px;
 }
+.aboutMeContainer{
+  position: relative;
+  height: 800px;
+}
+.personImgContainer{
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  background: #fff;
+  width: 220px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 10;
+}
+.personImgContainer img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.personInfoesContainer{
+  position: absolute;
+  top: 100px;
+  left: 320px;
+  width: 300px;
+  padding: 40px;
+  background-color: #2C2C2C;
+  border-radius: 10px;
+}
+.personInfoesContainer h3{
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  font-size: 38px;
+  font-weight: 400;
+  color: #E4E4E4;
+}
+.personInfoesContainer p{
+  font-weight: 400;
+  color: #fff;
+}
+.personImgTwoContainer{
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  width: 250px;
+  height: 300px;
+}
+.personImgTwoContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  border-radius: 10px;
+}

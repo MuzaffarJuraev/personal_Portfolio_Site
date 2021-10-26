@@ -5,6 +5,8 @@ import BrandingWatermarkIcon from "@mui/icons-material/BrandingWatermark";
 import ArrowBackIosNewRoundedIcon from "@mui/icons-material/ArrowBackIosNewRounded";
 import CameraFrontRoundedIcon from "@mui/icons-material/CameraFrontRounded";
 import AutoAwesomeMotionRoundedIcon from "@mui/icons-material/AutoAwesomeMotionRounded";
+import manImg from "../../assets/img/man.jpg";
+import manTwoImg from "../../assets/img/man2.jpg";
 
 const AboutMe = () => {
   return (
@@ -49,6 +51,32 @@ const AboutMe = () => {
             style={{ color: "#00C4F0", fontSize: "60px" }}
           />
           <p>Motion</p>
+        </div>
+      </div>
+      <div>
+        <div className="aboutMeContainer">
+          <div className="personImgContainer">
+            <img src={manImg} alt="..." />
+          </div>
+          <div className="personInfoesContainer">
+            <h3>About Me</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
+              perferendis aspernatur aperiam doloremque id molestiae hic tenetur
+              minus ipsam, assumenda dolorum et illo officia laboriosam qui
+              tempora quidem ad provident? Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Esse perferendis aspernatur aperiam
+              doloremque id molestiae hic tenetur minus ipsam, assumenda dolorum
+              et illo officia laboriosam qui tempora quidem ad provident? Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Esse
+              perferendis aspernatur aperiam doloremque id molestiae hic tenetur
+              minus ipsam, assumenda dolorum et illo officia laboriosam qui
+              tempora quidem ad provident?
+            </p>
+          </div>
+          <div className="personImgTwoContainer">
+            <img src={manTwoImg} alt=".." />
+          </div>
         </div>
       </div>
     </div>
