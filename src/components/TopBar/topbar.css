@@ -1,0 +1,32 @@
+.TopBarContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 41px 0;
+}
+.logoContainer {
+  flex: 20%;
+}
+.logoContainer h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.menuContainer {
+  flex: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.menuContainer .menuItem {
+  margin-left: 130px;
+  height: 30px;
+}
+.menuContainer .menuItem p {
+  cursor: pointer;
+  line-height: 30px;
+  font-weight: 300;
+  color: #e4e4e4;
+}
+.menuContainer .menuItem p:hover {
+  border-bottom: 1px solid #e2a300;
+}
